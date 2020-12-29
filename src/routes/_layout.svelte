@@ -1,6 +1,9 @@
 <script lang="ts">
   import Nav from "../components/Nav.svelte";
-
+  import { onMount } from "svelte";
+  onMount(async () => {
+    await import("tailwindcss-dark-mode/prefers-dark");
+  });
   export let segment: string;
 </script>
 
