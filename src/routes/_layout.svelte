@@ -7,8 +7,7 @@
   export let segment: string;
 </script>
 
-<div
-  class="bg-white dark:bg-black text-black dark:text-white h-min-screen h-full">
+<div class="bg-white dark:bg-black text-black dark:text-white min-h-screen">
   <div class="relative max-w-screen-xl mx-auto">
     <Nav {segment} />
     <main class="p-8">
